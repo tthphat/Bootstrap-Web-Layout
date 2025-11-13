@@ -1,0 +1,110 @@
+/* Header */
+.header{
+    top: 30px;
+    height: 100px;
+    z-index: 999;
+}
+
+.header .navbar{
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    min-height: 80px;
+    /* width: 90%; */
+}
+
+.header .navbar .navbar-nav .nav-item{
+    padding: 0 20px;
+}
+
+.header .navbar .navbar-nav .nav-item .active{
+    color: var(--color-primary);
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--color-primary);
+}
+
+/* End Header */
+
+/* Welcome */
+.welcome{
+    background-image: url(../imgs/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center bottom;
+}
+
+.welcome .title h1{
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+    color: white;
+}
+
+.welcome .title p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    position: relative;
+}
+
+
+/* End Welcome */
+
+/* Section-one */
+.section-one{
+    padding-top: 30px;
+    margin-top: -220px;
+}
+
+.section-one .inner-box{
+    background-color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+}
+
+.section-one .inner-box .image{
+    background-color: var(--color-second);
+    width: 90px;
+    aspect-ratio: 1/1;
+}
+
+.section-one .inner-box:hover .image{
+    background-color: var(--color-primary);
+}
+
+/* End Section-one */
+
+/* Section-two */
+.section-two{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.section-two .content p{
+    line-height: 28px;
+    letter-spacing: 1.5px;
+}
+
+.section-two hr{
+    margin-top: 100px;
+}
+
+/* End Section-two */
+
+/* Section-three */
+.section-three{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.section-three .content p{
+    line-height: 28px;
+    letter-spacing: 1.5px;
+}
+
+/* End Section-three */

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --color-primary: #a2a571;
+  --color-second: #122b1d;
+  --color-text: #324C4B;
+
+  --font: "Raleway", sans-serif;
+}
+
+body {
+  color: var(--color-text);
+  font-family: var(--font);
+}
+
+.button-one {
+  background-color: var(--color-second);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.button-one:hover{
+    background-color: var(--color-primary);
+    color: white;
+}
+
