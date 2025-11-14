@@ -265,3 +265,41 @@
 
 /* End Section-eight */
 
+/* Section-nine */
+.section-nine{
+    padding: 100px 0;
+    background-color: #F2F2FE;
+}
+
+.section-nine .row-2 .contact-form .form .row .form-control{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    padding-left: 20px;
+    border: none;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.section-nine .row-2 .contact-form .form .row #message{
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+.section-nine .row-2 .contact-form .form .row .button-two{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* End Section-nine */
