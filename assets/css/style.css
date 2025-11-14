@@ -118,6 +118,12 @@
 .section-four .item{
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.2);
     z-index: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.section-four .item:hover{
+    /* margin-top: -10px; */
+    transform: translateY(-10px);
 }
 
 .section-four .item::before {
@@ -146,3 +152,32 @@
     letter-spacing: 0.75px;
 }
 /* End Section-four */
+
+/* Section-five */
+.section-five{
+    background-color: #fff;
+    padding: 90px 0;
+}
+
+.section-five .inner-box{
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    /* margin-bottom: 30px; */
+    padding: 50px 50px;
+    background-color: #fff;
+    min-height: 380px;
+    
+}
+
+.section-five .inner-box .role{
+    transition: all 0.5s ease;
+}
+
+.section-five .inner-box:hover .role{
+    transform: translateX(20px);
+}
+
+.section-five .row-2 .inner-box .role span{
+    color: var(--color-primary);
+}
+
+/* End Section-five */
