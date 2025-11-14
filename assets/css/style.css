@@ -9,7 +9,9 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     min-height: 80px;
     /* width: 90%; */
+    border-radius: 40px;
 }
+
 
 /* .header .navbar .navbar-nav .nav-item{
     padding: 0 20px;
