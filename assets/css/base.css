@@ -21,7 +21,18 @@ body {
 }
 
 .button-one:hover{
-    background-color: var(--color-primary);
-    color: white;
+    background-color: var(--color-primary) !important; 
+    color: white !important;
 }
 
+.button-two {
+  background-color: var(--color-third);
+  color: white;
+  transition: all 0.3s ease;
+  border-radius: 25px;
+}
+
+.button-two:hover{
+    background-color: var(--color-text) !important; 
+    color: white !important;
+}

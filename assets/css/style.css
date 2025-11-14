@@ -251,3 +251,17 @@
 }
 
 /* End Section-seven */
+
+/* Section-eight */
+.section-eight{
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.section-eight .content .button-two{
+    padding: 10px 20px;
+    /* background-color: var(--color-text); specificityl */
+}
+
+/* End Section-eight */
+
