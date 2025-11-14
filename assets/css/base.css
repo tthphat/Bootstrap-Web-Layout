@@ -17,6 +17,7 @@ body {
   background-color: var(--color-second);
   color: white;
   transition: all 0.3s ease;
+  border-radius: 25px;
 }
 
 .button-one:hover{

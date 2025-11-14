@@ -181,3 +181,35 @@
 }
 
 /* End Section-five */
+
+/* Section-six */
+.section-six{
+    background-color: #F2F2FE;
+    padding: 90px 0;
+}
+
+.section-six .row-2 .content{
+    background-color: #fff;
+    padding: 50px;
+}
+
+.section-six .row-2 .content .price{
+    background-color: var(--color-third);
+    padding: 10px 50px;
+    border-radius: 25px;
+}
+
+.section-six .row-2 .block:nth-child(2) .content .price{
+    background-color: var(--color-text);
+    color: #fff;
+}
+
+.section-six .row-2 .block .content .list .line-through{
+    text-decoration: line-through;
+}
+
+.section-six .row-2 .block .content .button-one{
+    padding: 10px;
+}
+
+/* End Section-six */
